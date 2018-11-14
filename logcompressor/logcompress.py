@@ -391,6 +391,8 @@ def clean_encoding(line):
 
 
 def press_duplicate_lines(self, chunk):
+    '''Not implemented yet.'''
+    #TODO
     lines = {}
     for linenum, line in enumerate(chunk):
         header, trailer = self.split_trailer(line)
